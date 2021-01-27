@@ -99,7 +99,7 @@ var randomImages = generateRandomImages();
 renderImages(randomImages[0], randomImages[1], randomImages[2]);
 
 var numberOfClicks = 0;
-var numberOfRounds = 2;
+var numberOfRounds = 25;
 
 
 imageContainer.addEventListener('click', function (event) {
@@ -156,6 +156,8 @@ var ctx = document.getElementById('myChart').getContext('2d');
 
 var myChart = new Chart(ctx, {
   type: 'bar',
+  responsive: true,
+  maintainAspectRatio: false,
   data: {
     labels: productLabels,
     datasets: [{
