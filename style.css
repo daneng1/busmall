@@ -62,6 +62,8 @@ p {
 }
 #myText{
   display: none;
+  margin: 10%;
+  width: 80%;
 }
 
 #header {
@@ -73,9 +75,9 @@ p {
   text-decoration: underline;
 }
 #myChart {
-  width: 50%;
-  height: 50%;
+  /* margin: 100px; */
 }
+
 /* footer {
   background-color: grey;
   width: 100%;
