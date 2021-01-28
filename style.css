@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 
 body {
-  /* display: flex;
-  flex-direction: column;
-  /* margin: auto; */
-  /* justify-content: center; */
   background-color: rgb(235, 238, 238);
 }
+
 h1 {
+  
   font-family: 'Arvo', serif;
   font-size: 48px;
-  /* justify-content: center; */
-  /* margin: auto; */
 }
 
 header {
@@ -22,11 +18,14 @@ header {
   border-bottom: grey 3px double;
 }
 
+h1{
+  
+}
+
 section {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
 }
 
 img {
@@ -38,7 +37,6 @@ img {
   border-radius: 15px;
   width: 300px;
   margin: 100px 20px 20px 20px;
-
 }
 
 button {
@@ -47,8 +45,8 @@ button {
   padding: 5px 25px;
   color: grey;
   background-color: black;
-
 }
+
 button:hover {
   color: white;
   background-color: rgb(101, 101, 101);
@@ -60,10 +58,12 @@ p {
   padding-bottom: 15px;
   border-bottom: black 1px solid;
 }
+
 #myText{
+  position: relative;
   display: none;
+  justify-content: center;
   margin: 10%;
-  width: 70%;
 }
 
 #header {
@@ -74,13 +74,3 @@ p {
   color: rgb(46, 46, 46);
   text-decoration: underline;
 }
-#myChart {
-  /* margin: 100px; */
-}
-
-/* footer {
-  background-color: grey;
-  width: 100%;
-  height: 200px; */
-  
-/* } */
