@@ -41,7 +41,7 @@ if (ProductImage.allImages.length === 0) {
   new ProductImage('./images/water-can.jpg', 'Water-can');
   new ProductImage('./images/wine-glass.jpg', 'Wine-glass');
 }
-// console.log(ProductImage.allImages);
+
 
 var imageContainer = document.getElementById('image-container');
 var leftImage = document.getElementById('left-image');
@@ -113,7 +113,7 @@ imageContainer.addEventListener('click', function (event) {
   if (numberOfClicks < numberOfRounds) {
     var randomProducts = generateRandomImages();
     renderImages(randomProducts[0], randomProducts[1], randomProducts[2]);
-    // console.log(numberOfClicks);
+   
   }
   else{
     imageContainer.style.display='none';
@@ -140,7 +140,7 @@ resultButton.addEventListener('click', function (event) {
   }
   console.log(`Votes are ${votesByProduct}`);
   console.log(`Shown are ${timesProductsAreShown}`);
-  // console.log(productLabels);
+
 
   var productsAsString = JSON.stringify(ProductImage.allImages);
   console.log(productsAsString);
